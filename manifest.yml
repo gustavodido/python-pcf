@@ -1,0 +1,8 @@
+---
+applications:
+- name: checkrplstatus-stub
+  memory: 128MB
+  disk_quota: 256MB
+  random-route: false
+  buildpack: python_buildpack
+  command: python temp_rpl.py
